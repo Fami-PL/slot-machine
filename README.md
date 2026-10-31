@@ -29,9 +29,22 @@ instead of shake-to-start.
 
 ## Installation
 
-1. Copy `slot_machine.js` to the `/scripts` folder on the StickS3 (SD card or
-   LittleFS).
-2. Open the **Scripts** menu in Bruce and run **slot_machine.js**.
+### Option 1 - Bruce App Store (recommended, once approved)
+
+1. Connect the StickS3 to Wi-Fi.
+2. If the App Store is not installed yet, open **Config -> Install App Store**.
+3. Open **JS Interpreter -> Tools -> App Store**.
+4. Select **Games -> Lucky Slots** and install it.
+5. Launch **Lucky Slots** from the JS Interpreter menu.
+
+The App Store entry may take some time to appear while it is reviewed. If it
+is not listed yet, use the manual installation below.
+
+### Option 2 - Manual installation
+
+1. Download `slot_machine.js` from this repository.
+2. Copy it to the `/scripts` folder on the StickS3 (SD card or LittleFS).
+3. Open the **Scripts** menu in Bruce and run **slot_machine.js**.
 
 ## Requirements
 
